@@ -1,26 +1,26 @@
 .container {
-  display: flex;
+	display: flex;
 
-  justify-content: space-between;
+	justify-content: space-between;
 
-  position: sticky;
-  position: -webkit-sticky;
+	position: sticky;
+	position: -webkit-sticky;
 
-  top: 0;
-
-  color: white;
-  background-color: black;
+	top: 0;
+	z-index: 4;
+	color: white;
+	background-color: black;
 }
 
 .span {
-  padding: 5px 10px;
-  margin: 5px;
+	padding: 5px 10px;
+	margin: 5px;
 
-  font-size: large;
-  font-weight: bold;
+	font-size: large;
+	font-weight: bold;
 
-  a {
-    color: white;
-    margin-left: 2rem;
-  }
+	a {
+		color: white;
+		margin-left: 2rem;
+	}
 }

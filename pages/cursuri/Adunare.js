@@ -389,7 +389,6 @@ export default function Adunare() {
 						</li>
 					</ul>
 				</div>
-				<h2>altceva</h2>
 			</Cursuri>
 			<DiscussionEmbed
 				shortname={numeUtilizator}
