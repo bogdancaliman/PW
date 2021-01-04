@@ -20,7 +20,7 @@ export default function NavBar() {
 				<Link href="/">
 					<a style={{ marginLeft: 0 }}>
 						<img src="../math_icon.png" style={{ width: '21px', height: '21px' }}></img>
-						<h5 style={{ display: 'inline' }}>ath Kidz</h5>
+						<h5 style={{ display: 'inline' }}>anagement</h5>
 					</a>
 				</Link>
 				<Link href="/">
@@ -29,6 +29,11 @@ export default function NavBar() {
 				{isAuthenticated() ? (
 					<Link href="/cursuri">
 						<a>Cursuri</a>
+					</Link>
+				) : null}
+				{isAuthenticated() ? (
+					<Link href="/notite">
+						<a>Notite</a>
 					</Link>
 				) : null}
 			</span>

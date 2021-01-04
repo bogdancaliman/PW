@@ -11,18 +11,22 @@ export default function PaginaCursuri() {
 	return (
 		<Layout>
 			{isAuthenticated() ? (
-				<Cursuri>
-					<div
-						style={{
-							top: '30%',
-							position: 'absolute',
-							width: '50%',
-							marginLeft: 'auto',
-						}}
-					>
-						<h1>Alege un curs, {numeUtilizator}</h1>
-					</div>
-				</Cursuri>
+				<div style={{ marginLeft: '40px', backgroundColor: 'rgb(231, 231, 231)' }}>
+					<Cursuri>
+						<div
+							style={{
+								marginLeft: '40px',
+								top: '30%',
+								position: 'absolute',
+								width: '50%',
+								marginLeft: 'auto',
+								backgroundColor: 'rgb(231, 231, 231)',
+							}}
+						>
+							<h1>Alege un curs, {numeUtilizator}</h1>
+						</div>
+					</Cursuri>
+				</div>
 			) : (
 				<div>
 					<p>Logheaza-te ca sa vezi cursurile</p>
